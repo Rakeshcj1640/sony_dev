@@ -10,7 +10,7 @@ df_sales = spark.read.csv(f"{input_path}sales.csv",header=True,inferSchema=True)
 df1 = add_ingestion(df_sales)
 
 # COMMAND ----------
-
+#display dataframe
 display(df1)
 
 # COMMAND ----------
